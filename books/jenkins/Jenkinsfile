@@ -14,8 +14,7 @@ pipeline {
         DEV_PROJECT = "imisssaigon-books-dev"
         STAGE_PROJECT = "imisssaigon-books-stage"
         APP_GIT_URL = "https://github.com/trangmos/DO288-apps"
-        NEXUS_SERVER = "http://jenkins-imisssaigon-ci-cd.apps.na45.prod.nextcle.com/repository/nodejs"
-
+        NEXUS_SERVER = "http://nexus-common.apps.na45.prod.nextcle.com/repository/nodejs"
         // DO NOT CHANGE THE GLOBAL VARS BELOW THIS LINE
         APP_NAME = "books"
     }
